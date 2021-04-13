@@ -1,0 +1,109 @@
+.window{
+	/* 让盒子居中 */
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	/* 设置大小 */
+	width: 800px;
+	height: 400px ;
+	/* 设置背景颜色 */
+	background-color: darksalmon;
+}
+#m_cat{
+	width: 10%;
+	height: 20%;
+	top: 205px;
+	left: 70px;
+	position: absolute;
+	z-index: 2;
+}
+#back{
+	margin: auto;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+}
+.state{
+	background-color: #E9967A;
+	width: 800px;
+	height: 80px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+#id1{
+	margin: auto;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+#id2{
+	margin: auto;
+	top: 30px;
+	left: 360px;
+	position: absolute;
+}
+#id3{
+	margin: auto;
+	top: 30px;
+	left: 650px;
+	position: absolute;
+}
+#p1{
+	margin: auto;
+	position: absolute;
+	top: 35px;
+	left: 90px;
+}
+#p2{
+	margin: auto;
+	top: 35px;
+	left: 450px;
+	position: absolute;
+}
+#p3{
+	margin: auto;
+	top: 35px;
+	left: 740px;
+	position: absolute;
+}
+#tree{
+	margin: auto;
+	width: 6%;
+	top: 245px;
+	left: 800px;
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+#stone{
+	margin: auto;
+	top: 230px;
+	height: 15%;
+	visibility: hidden;
+	position: absolute;
+	z-index: 2;
+}
+#mouse{
+	margin: auto;
+	top: 240px;
+	left: 600px;
+	width: 8%;
+	visibility: hidden;
+	position: absolute;
+	z-index: 2;
+}
+#cloud{
+	width: 100%;
+	margin: auto;
+	left: 1px;
+	position: absolute;
+	z-index: 2;
+}
